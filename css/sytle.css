@@ -33,3 +33,19 @@ text-align: center;
    .hidden {
     display: none;
   }
+
+  .failed {
+    display: none;
+  }
+
+  .Back2 {
+
+background: #c58585;
+background: radial-gradient(circle, rgb(160, 108, 108) 0%, rgb(180, 142, 142) 100%);
+}
+
+.Back3 {
+
+background: #c26b6b;
+background: radial-gradient(circle, rgb(167, 105, 105) 0%, rgb(190, 114, 114) 100%);
+}

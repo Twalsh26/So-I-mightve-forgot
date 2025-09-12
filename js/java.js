@@ -21,6 +21,4 @@ function toggleByClass(elementId) {
   element.classList.toggle("hidden");
 }
 
-
-  
-  
+ 
