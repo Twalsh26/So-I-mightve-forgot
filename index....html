@@ -10,9 +10,9 @@
   <body class="Back">
 
 
-    <h1>Wow! What I cool websites!</h1>
+    <h1>Wow! What a cool websites!</h1>
     <div class="login">
-    <a type="button invisible" href="index.....html" class="btn btn-dark login">Login?!</a>
+    <a type="button" href="index.....html" id="myElement" class="btn btn-dark login hidden">Login?!</a>
     </div>
 
      <div class="row">
@@ -27,10 +27,13 @@
 
   </div>
     <div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
-    <div id="div2" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+    <div id="div2" ondrop="dropHandler(event), toggleByClass('myElement')"   ondragover="dragoverHandler(event)"></div>
     <div id="div4" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
 
-   
+    <!-- <button onclick="toggleByClass('myElement')">Toggle Class</button> -->
+
+
+
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="js/java.js"></script>

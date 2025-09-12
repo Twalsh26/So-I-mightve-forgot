@@ -15,3 +15,12 @@ function dropHandler(ev) {
 document.getElementById('three').addEventListener('click', function() {
     this.classList.add('hidden');
   });
+
+function toggleByClass(elementId) {
+  const element = document.getElementById(elementId);
+  element.classList.toggle("hidden");
+}
+
+
+  
+  

@@ -30,6 +30,6 @@ text-align: center;
   border: 1px solid black;
 }
 
-   .invisible {
-    visibility: hidden;
+   .hidden {
+    display: none;
   }
