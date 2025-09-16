@@ -49,3 +49,76 @@ background: radial-gradient(circle, rgb(160, 108, 108) 0%, rgb(180, 142, 142) 10
 background: #c26b6b;
 background: radial-gradient(circle, rgb(167, 105, 105) 0%, rgb(190, 114, 114) 100%);
 }
+
+.login2{
+text-align: left;
+}
+
+.login3{
+text-align: right;
+}
+
+.Back4 {
+
+background: #8b3e3e;
+background: radial-gradient(circle, rgb(161, 82, 82) 0%, rgb(194, 89, 89) 100%);
+}
+
+.login4{
+text-align: right;
+height: 10px;
+
+}
+
+.text4 {
+color: rgb(194, 89, 89);
+}
+
+.warp{
+text-align: left;
+transform: rotate(-45deg);
+}
+
+.Back5 {
+
+background: #802222;
+background: radial-gradient(circle, rgb(107, 47, 47) 0%, rgb(119, 37, 37) 100%);
+}
+
+.true {
+
+}
+
+.fake1 {
+text-align: left;
+transform: rotate(4deg);
+}
+
+.fake2 {
+text-align: right;
+transform: rotate(-3deg);
+}
+
+.fake3 {
+text-align: center;
+transform: rotate(-6deg);
+}
+
+.fake4 {
+text-align: right;
+transform: rotate(-7deg);
+}
+
+.fake5 {
+text-align: left;
+transform: rotate(-15deg);
+}
+
+.fake6 {
+text-align: right;
+transform: rotate(2deg);
+}
+.true {
+  text-align: left;
+  transform: rotate(4deg);
+}
